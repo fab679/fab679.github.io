@@ -279,7 +279,7 @@
 # or: paru -S graph-craft-relate-bin</code></pre>
             <p>Building from source needs the Tauri/WebKit stack:</p>
             <pre><code>sudo pacman -S --needed base-devel webkit2gtk-4.1 gtk3 \
-  libappindicator-gtk3 librsvg patchelf openssl</code></pre>
+  libappindicator librsvg patchelf openssl</code></pre>
             <p class="note"><strong>Arch notes:</strong> AppImage needs <code>fuse2</code>. Wayland works natively; on some GPUs, set <code>WEBKIT_DISABLE_COMPOSITING_MODE=1</code> if the canvas is blank. On ARM/ALARM, build the <code>aarch64</code> bundle from source.</p>
             <p class="note"><strong>Omarchy:</strong> the app detects Omarchy and offers <strong>Follow the Omarchy theme and accent</strong> in Settings. It reads the current theme's <code>colors.toml</code>; the option is hidden on other desktops.</p>
           </div>
