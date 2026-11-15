@@ -1,0 +1,6 @@
+{
+  "version": "0.1.0",
+  "notes": "Development channel. Signed release builds replace this manifest with the latest platform entries.",
+  "pub_date": "2026-11-15T00:00:00Z",
+  "platforms": {}
+}

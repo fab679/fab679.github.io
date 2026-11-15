@@ -1,0 +1,423 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Graph Craft Relate — a local-first graph workbench</title>
+  <meta name="description" content="Graph Craft Relate is a local-first desktop graph workbench for the embedded Relate database. Search, shape, analyze, and share graphs — with a live canvas MCP for agents." />
+  <meta name="theme-color" content="#f2eee4" />
+  <meta property="og:title" content="Graph Craft Relate" />
+  <meta property="og:description" content="A graph workbench for the desk, not the cloud." />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="assets/screenshot.webp" />
+  <link rel="icon" href="favicon.svg" type="image/svg+xml" />
+  <link rel="stylesheet" href="site.css" />
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+
+  <header class="nav">
+    <a class="brand" href="#top" aria-label="Graph Craft Relate home">
+      <svg class="brand-mark" viewBox="0 0 32 32" aria-hidden="true">
+        <path d="M7 21.5 16 5l9 16.5-9 5z" fill="none" stroke="currentColor" stroke-width="1.6"/>
+        <circle cx="16" cy="5" r="2.4" fill="currentColor"/>
+        <circle cx="7" cy="21.5" r="2.4" fill="currentColor"/>
+        <circle cx="25" cy="21.5" r="2.4" fill="currentColor"/>
+        <circle cx="16" cy="26.5" r="2.4" fill="currentColor"/>
+      </svg>
+      <span class="brand-word">Graph Craft <em>Relate</em></span>
+      <span class="brand-beta">private beta</span>
+    </a>
+    <nav class="nav-links" aria-label="Main">
+      <a href="#workbench">Workbench</a>
+      <a href="#workflow">Workflow</a>
+      <a href="#install">Install</a>
+      <a href="#agents">Agents</a>
+      <a class="nav-cta" href="https://github.com/fab679/graph-craft-relate" rel="noreferrer">GitHub <span aria-hidden="true">↗</span></a>
+    </nav>
+  </header>
+
+  <main id="main">
+    <section class="hero" id="top">
+      <div class="hero-copy">
+        <p class="eyebrow"><span class="dot"></span> Local-first · Relate embedded · v0.1</p>
+        <h1>Think in graphs.<br /><span class="accent">Keep them close.</span></h1>
+        <p class="lead">
+          Graph Craft Relate is a desktop workbench for connected data. Search a
+          graph without writing a query, shape it on a live canvas, run the
+          algorithms, and hand the same surface to an agent.
+        </p>
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="#install">Install Relate <span aria-hidden="true">→</span></a>
+          <a class="btn" href="#workbench">See the workbench</a>
+        </div>
+        <p class="fine">Linux · macOS · Windows · Arch/AUR · signed in-place updates</p>
+        <dl class="ledger">
+          <div><dt>Local-first</dt><dd>Projects are folders you own</dd></div>
+          <div><dt>Cypher-native</dt><dd>Relate, embedded</dd></div>
+          <div><dt>81 tools</dt><dd>One shared canvas MCP</dd></div>
+        </dl>
+      </div>
+
+      <div class="hero-visual" aria-label="A graph canvas specimen">
+        <div class="canvas-frame">
+          <div class="canvas-top">
+            <span class="canvas-project"><i></i> Reference Graph</span>
+            <span class="canvas-mode">All · Nodes · Rels</span>
+          </div>
+          <svg class="specimen" viewBox="0 0 660 500" role="img" aria-label="A graph of processes, decisions, and outcomes">
+            <defs>
+              <linearGradient id="edgeGlow" x1="0" x2="1">
+                <stop offset="0" stop-color="#1f5eff" stop-opacity=".15"/>
+                <stop offset=".5" stop-color="#1f5eff" stop-opacity=".75"/>
+                <stop offset="1" stop-color="#d97706" stop-opacity=".2"/>
+              </linearGradient>
+            </defs>
+            <g class="grid-lines" aria-hidden="true">
+              <path d="M0 80H660M0 160H660M0 240H660M0 320H660M0 400H660" />
+              <path d="M80 0V500M160 0V500M240 0V500M320 0V500M400 0V500M480 0V500M560 0V500" />
+            </g>
+            <g class="edges">
+              <path d="M150 125 315 105" />
+              <path d="M315 105 505 155" />
+              <path d="M315 105 255 255" />
+              <path d="M255 255 430 300" />
+              <path d="M255 255 135 345" />
+              <path d="M430 300 560 365" />
+              <path d="M135 345 300 405" />
+              <path d="M430 300 300 405" />
+              <path d="M505 155 560 365" />
+            </g>
+            <g class="nodes">
+              <g class="node n-blue" transform="translate(150 125)">
+                <circle r="34"/><text class="glyph" y="5">◎</text>
+                <text class="nlabel" y="54">Commissioning</text>
+              </g>
+              <g class="node n-amber" transform="translate(315 105)">
+                <circle r="26"/><text class="glyph" y="5">◇</text>
+                <text class="nlabel" y="46">Desk Study</text>
+              </g>
+              <g class="node n-violet" transform="translate(505 155)">
+                <circle r="28"/><text class="glyph" y="5">◈</text>
+                <text class="nlabel" y="48">Evidence</text>
+              </g>
+              <g class="node n-blue" transform="translate(255 255)">
+                <circle r="40"/><text class="glyph" y="6">▣</text>
+                <text class="nlabel" y="60">Field Study</text>
+              </g>
+              <g class="node n-green" transform="translate(430 300)">
+                <circle r="30"/><text class="glyph" y="5">✓</text>
+                <text class="nlabel" y="50">Decision</text>
+              </g>
+              <g class="node n-amber" transform="translate(135 345)">
+                <circle r="24"/><text class="glyph" y="5">↗</text>
+                <text class="nlabel" y="44">Outcome</text>
+              </g>
+              <g class="node n-violet" transform="translate(560 365)">
+                <circle r="22"/><text class="glyph" y="5">◇</text>
+                <text class="nlabel" y="42">Routes</text>
+              </g>
+              <g class="node n-blue" transform="translate(300 405)">
+                <circle r="27"/><text class="glyph" y="5">⌁</text>
+                <text class="nlabel" y="47">Inventory</text>
+              </g>
+            </g>
+          </svg>
+          <div class="legend-specimen" aria-hidden="true">
+            <p>Nodes <span>4</span></p>
+            <p><i class="sw blue"></i> Process <b>23</b></p>
+            <p><i class="sw amber"></i> Decision <b>14</b></p>
+            <p><i class="sw violet"></i> Info object <b>34</b></p>
+            <p><i class="sw green"></i> Outcome <b>8</b></p>
+          </div>
+          <div class="inspector-specimen" aria-hidden="true">
+            <span class="mono">FOCUS</span>
+            <strong>Field Study</strong>
+            <small>Process · 7 links</small>
+            <span class="mini-pill">Open inspector</span>
+          </div>
+          <div class="canvas-dock" aria-hidden="true">
+            <span class="dock-active">↖</span><span>⌖</span><span>◇</span><span>＋</span><span class="dock-sep"></span><span>↶</span><span>↷</span><span class="dock-end">79 nodes · 133 links</span>
+          </div>
+        </div>
+        <p class="visual-caption"><span>FIG. 01</span> The canvas is the interface. Everything else is a panel.</p>
+      </div>
+    </section>
+
+    <section class="strip" aria-label="Product principles">
+      <span>LOCAL-FIRST</span><span>CYPHER-NATIVE</span><span>AGENT-READABLE</span><span>SIGNED UPDATES</span><span>NO CLOUD REQUIRED</span>
+    </section>
+
+    <section class="section" id="workbench">
+      <header class="section-head">
+        <p class="eyebrow"><span class="dot"></span> The workbench</p>
+        <h2>A graph surface that behaves like a tool.</h2>
+        <p class="section-lead">Search first, then work the graph: inspect, edit, analyze, and keep a view. No dashboards, no query console, no ceremony.</p>
+      </header>
+      <div class="feature-grid">
+        <article class="feature">
+          <span class="feature-no">01</span>
+          <h3>Search, not query</h3>
+          <p>Type <code>Person acted in Movie</code> or a property value. The app compiles patterns, suggests only real schema steps, and brings matches onto the canvas.</p>
+        </article>
+        <article class="feature">
+          <span class="feature-no">02</span>
+          <h3>Shape the scene</h3>
+          <p>Drag, group, filter, and lay out. Stage node and edge edits, review schema changes, then sync. The save pill keeps work visible.</p>
+        </article>
+        <article class="feature">
+          <span class="feature-no">03</span>
+          <h3>Analyze in place</h3>
+          <p>Paths, waves, communities, PageRank, betweenness, cycles, HITS, geo radius. Results become overlays, groups, and saved perspectives.</p>
+        </article>
+        <article class="feature">
+          <span class="feature-no">04</span>
+          <h3>Keep the view</h3>
+          <p>Perspectives save selection, positions, layout, styles, groups, notes, and analysis. Reopen a graph exactly as you left it.</p>
+        </article>
+        <article class="feature">
+          <span class="feature-no">05</span>
+          <h3>Bring your graph</h3>
+          <p>Import from Neo4j/Aura with standard Bolt URIs or the HTTP Query API. Multi-label nodes keep every label; the common label no longer steals color.</p>
+        </article>
+        <article class="feature">
+          <span class="feature-no">06</span>
+          <h3>Ship a real desktop app</h3>
+          <p>Native bundles for Linux, macOS, and Windows, signed in-place updates, file associations, and projects that are just folders on disk.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section specimen-section" aria-labelledby="specimen-title">
+      <div class="specimen-copy">
+        <p class="eyebrow"><span class="dot"></span> Specimen</p>
+        <h2 id="specimen-title">A graph you can hold.</h2>
+        <p class="section-lead">The Movies Graph, with images, labels, and relationships. The same canvas runs on your desktop, not in a browser tab owned by someone else.</p>
+        <ul class="check-list">
+          <li>Node images and captions from any property</li>
+          <li>Multi-label nodes keep their specific categories</li>
+          <li>Perspectives restore the exact working view</li>
+        </ul>
+      </div>
+      <figure class="shot">
+        <div class="shot-bar"><span></span><span></span><span></span><em>Movies Graph</em></div>
+        <img src="assets/screenshot.webp" width="1600" height="873" loading="lazy" alt="Graph Craft Relate canvas showing movie, genre, and person nodes with portrait images." />
+        <figcaption><span>FIG. 02</span> Movies Graph · 9 nodes · 9 links · images from a `photo` property.</figcaption>
+      </figure>
+    </section>
+
+    <section class="section workflow" id="workflow">
+      <header class="section-head">
+        <p class="eyebrow"><span class="dot"></span> The loop</p>
+        <h2>Ask. Shape. Prove. Share.</h2>
+      </header>
+      <ol class="steps">
+        <li><span>01</span><h3>Ask</h3><p>Focus a node or select a set. The agent reads the same selection, view, and analysis you do.</p></li>
+        <li><span>02</span><h3>Shape</h3><p>Stage edits and relationships, review the schema, sync once. Every change is visible before it lands.</p></li>
+        <li><span>03</span><h3>Prove</h3><p>Run an algorithm, inspect the result groups, and save the perspective as evidence.</p></li>
+        <li><span>04</span><h3>Share</h3><p>Export PNG/SVG, a perspective, or a `.rl` bundle. The graph stays portable.</p></li>
+      </ol>
+    </section>
+
+    <section class="section local-panel">
+      <div class="local-copy">
+        <p class="eyebrow"><span class="dot"></span> Local-first</p>
+        <h2>Your graph is a folder.<br />Not a tenancy.</h2>
+        <p class="section-lead">Relate is embedded. A project lives where you put it: a directory with a store, files, and a manifest. Move it, back it up, or hand it to someone else.</p>
+        <div class="local-points">
+          <div><strong>No cloud required</strong><span>The app runs without an account server or network.</span></div>
+          <div><strong>No lock-in</strong><span>Export `.rl` bundles and perspectives; import them anywhere.</span></div>
+          <div><strong>No silent updates</strong><span>Updates are signed and installed in place; you choose when to restart.</span></div>
+        </div>
+      </div>
+      <div class="tree-card" aria-label="Project folder layout">
+        <div class="tree-head"><span>FILES</span><span>~/GraphCraftRelate/Investigation</span></div>
+        <pre><code>Investigation/
+├── project.json        <i># label, created</i>
+├── files/              <i># source files</i>
+├── graph/              <i># Relate store</i>
+│   ├── manifest.json
+│   ├── nodes/
+│   └── wal/
+└── scenes.json         <i># perspectives</i></code></pre>
+        <p class="tree-note"><span class="pulse"></span> Local · recoverable · yours</p>
+      </div>
+    </section>
+
+    <section class="section" id="install">
+      <header class="section-head">
+        <p class="eyebrow"><span class="dot"></span> Install</p>
+        <h2>Install it like a tool.<br />Not a subscription.</h2>
+        <p class="section-lead">Private beta builds are published as signed desktop bundles. Pick your platform; the app updates itself in place on AppImage, macOS, and Windows. Package-manager installs update through the package manager.</p>
+      </header>
+
+      <div class="download-row">
+        <a class="btn btn-primary" href="https://github.com/fab679/graph-craft-relate/releases/latest" rel="noreferrer">Download latest build <span aria-hidden="true">↗</span></a>
+        <span class="mono">Private beta · signed bundles · SHA256SUMS</span>
+      </div>
+
+      <div class="install-grid">
+        <details class="install-card" open>
+          <summary><span class="os">Linux</span><span class="os-meta">AppImage · universal</span><span class="chev" aria-hidden="true">+</span></summary>
+          <div class="install-body">
+            <p>Download the AppImage, make it executable, and run it. No install step; the app keeps its projects in folders you choose.</p>
+            <pre><code>chmod +x Graph-Craft-Relate_*.AppImage
+./Graph-Craft-Relate_*.AppImage</code></pre>
+            <p class="note"><strong>FUSE 2</strong> is required by AppImage. If it is missing, install <code>fuse2</code> (Arch), <code>libfuse2</code> (Debian/Ubuntu), or run with <code>--appimage-extract-and-run</code>.</p>
+            <p class="note">In-place auto-update is supported for AppImage. The <code>.deb</code>/<code>.rpm</code> packages update through your package manager.</p>
+          </div>
+        </details>
+
+        <details class="install-card arch-card">
+          <summary><span class="os">Arch Linux</span><span class="os-meta">AUR · the native path</span><span class="chev" aria-hidden="true">+</span></summary>
+          <div class="install-body">
+            <p>Arch is the reference environment. Use the AUR package, or run the AppImage.</p>
+            <pre><code>yay -S graph-craft-relate-bin
+# or: paru -S graph-craft-relate-bin</code></pre>
+            <p>Building from source needs the Tauri/WebKit stack:</p>
+            <pre><code>sudo pacman -S --needed base-devel webkit2gtk-4.1 gtk3 \
+  libappindicator-gtk3 librsvg patchelf openssl</code></pre>
+            <p class="note"><strong>Arch notes:</strong> AppImage needs <code>fuse2</code>. Wayland works natively; on some GPUs, set <code>WEBKIT_DISABLE_COMPOSITING_MODE=1</code> if the canvas is blank. On ARM/ALARM, build the <code>aarch64</code> bundle from source.</p>
+          </div>
+        </details>
+
+        <details class="install-card">
+          <summary><span class="os">Debian / Ubuntu</span><span class="os-meta">.deb</span><span class="chev" aria-hidden="true">+</span></summary>
+          <div class="install-body">
+            <pre><code>sudo apt install ./graph-craft-relate_*_amd64.deb</code></pre>
+            <p>Dependencies: <code>libwebkit2gtk-4.1-0</code>, <code>libgtk-3-0</code>, <code>libayatana-appindicator3-1</code>, <code>librsvg2-2</code>. Use the AppImage if your release is older than Ubuntu 22.04.</p>
+          </div>
+        </details>
+
+        <details class="install-card">
+          <summary><span class="os">Fedora</span><span class="os-meta">.rpm</span><span class="chev" aria-hidden="true">+</span></summary>
+          <div class="install-body">
+            <pre><code>sudo dnf install ./graph-craft-relate-*.x86_64.rpm</code></pre>
+            <p>Dependencies: <code>webkit2gtk4.1</code>, <code>gtk3</code>, <code>libappindicator-gtk3</code>, <code>librsvg2</code>. Fedora Silverblue users should use the AppImage or a Distrobox container.</p>
+          </div>
+        </details>
+
+        <details class="install-card">
+          <summary><span class="os">openSUSE</span><span class="os-meta">.rpm</span><span class="chev" aria-hidden="true">+</span></summary>
+          <div class="install-body">
+            <pre><code>sudo zypper install ./graph-craft-relate-*.x86_64.rpm</code></pre>
+            <p>Dependencies: <code>webkit2gtk4.1</code>, <code>gtk3</code>, <code>libappindicator3-1</code>, <code>librsvg2</code>.</p>
+          </div>
+        </details>
+
+        <details class="install-card">
+          <summary><span class="os">macOS</span><span class="os-meta">.dmg · universal</span><span class="chev" aria-hidden="true">+</span></summary>
+          <div class="install-body">
+            <p>Open the DMG, drag <strong>Graph Craft Relate</strong> to Applications, and launch it.</p>
+            <p class="note">Beta builds may be unnotarized: right-click the app → <strong>Open</strong> the first time. Production builds are signed and notarized. Auto-update is in place.</p>
+          </div>
+        </details>
+
+        <details class="install-card">
+          <summary><span class="os">Windows</span><span class="os-meta">NSIS / MSI</span><span class="chev" aria-hidden="true">+</span></summary>
+          <div class="install-body">
+            <p>Run the <code>.exe</code> installer (or the MSI). The installer bootstraps WebView2 if it is missing.</p>
+            <p class="note">Beta builds may show SmartScreen: <strong>More info → Run anyway</strong>. Production builds are code-signed. Auto-update is in place.</p>
+          </div>
+        </details>
+
+        <details class="install-card">
+          <summary><span class="os">NixOS</span><span class="os-meta">AppImage · flake later</span><span class="chev" aria-hidden="true">+</span></summary>
+          <div class="install-body">
+            <p>Run the AppImage through <code>appimage-run</code>:</p>
+            <pre><code>nix-shell -p appimage-run
+appimage-run ./Graph-Craft-Relate_*.AppImage</code></pre>
+            <p class="note">A native flake is planned; until then, use the AppImage or a Distrobox container. Do not mix the app's WebKit with a mismatched system runtime.</p>
+          </div>
+        </details>
+
+        <details class="install-card">
+          <summary><span class="os">Alpine / musl</span><span class="os-meta">not native</span><span class="chev" aria-hidden="true">+</span></summary>
+          <div class="install-body">
+            <p>WebKitGTK/Tauri does not ship a native musl bundle. Use a glibc Distrobox (Arch/Debian) or a Flatpak when available; the AppImage will not run natively on Alpine.</p>
+          </div>
+        </details>
+
+        <details class="install-card">
+          <summary><span class="os">ARM64</span><span class="os-meta">aarch64 · AppImage / deb / rpm</span><span class="chev" aria-hidden="true">+</span></summary>
+          <div class="install-body">
+            <p>Use the <code>aarch64</code> bundle. The Relate sidecar is pinned per target (<code>relate-linux-arm64</code>); the app refuses to start with a missing sidecar.</p>
+            <p class="note">Arch ARM (ALARM) users can build from source with the same dependencies; the AUR package targets x86_64.</p>
+          </div>
+        </details>
+      </div>
+
+      <div class="update-note">
+        <div>
+          <span class="mono">UPDATES</span>
+          <h3>Signed, in place, on your terms.</h3>
+          <p>The app checks a signed update feed on launch and every six hours. AppImage, macOS, and Windows install in place and ask before restarting. Debian/Fedora/openSUSE packages stay with your package manager.</p>
+        </div>
+        <div class="update-code">
+          <pre><code># AppImage / macOS / Windows
+Graph Craft Relate → update banner → Restart
+
+# Arch
+yay -Syu
+
+# Debian / Ubuntu
+sudo apt update &amp;&amp; sudo apt upgrade</code></pre>
+        </div>
+      </div>
+    </section>
+
+    <section class="section agents" id="agents">
+      <div class="agents-copy">
+        <p class="eyebrow"><span class="dot"></span> Agents</p>
+        <h2>The same canvas,<br />for both of you.</h2>
+        <p class="section-lead">The canvas MCP runs through the app's own command registry. An agent selects, focuses, lays out, styles, analyzes, and stages edits exactly like the human — with the same confirmations and read-only scope.</p>
+        <div class="agent-points">
+          <div><strong>81 tools</strong><span>Projects, perspectives, scene reads, draft-first writes, analysis state, exports, Neo4j import.</span></div>
+          <div><strong>Common ground</strong><span><code>get_focus</code> reads the human's selected node and its context.</span></div>
+          <div><strong>Safe by default</strong><span><code>--scope read</code>, exact confirmations, <code>base_rev</code>/<code>dirty_board</code>.</span></div>
+        </div>
+        <a class="btn btn-primary" href="https://github.com/fab679/graph-craft-relate/blob/main/SKILLS.md" rel="noreferrer">Read the skill pack <span aria-hidden="true">↗</span></a>
+      </div>
+      <div class="agent-code">
+        <div class="code-head"><span>terminal</span><span>agent setup</span></div>
+        <pre><code><span class="c"># install the agent skills from npm</span>
+npx graph-craft-relate-skills
+
+<span class="c"># the canvas MCP is a stdio server</span>
+node packages/canvas-mcp/dist/cli.js \
+  --app-id ai.graphcraft.relate
+
+<span class="c"># read-only observers</span>
+node packages/canvas-mcp/dist/cli.js \
+  --app-id ai.graphcraft.relate --scope read</code></pre>
+        <p class="code-note"><span class="pulse"></span> 81 tools · 6 skills · one shared selection</p>
+      </div>
+    </section>
+
+    <section class="section closing">
+      <p class="eyebrow"><span class="dot"></span> Private beta</p>
+      <h2>Put a graph on your desk.</h2>
+      <p class="section-lead">Relate is shipping to invited testers first. The source repository is private; the build channel is signed. Ask for access, or follow the install notes when you have a build.</p>
+      <div class="hero-actions">
+        <a class="btn btn-primary" href="https://github.com/fab679/graph-craft-relate" rel="noreferrer">Request access on GitHub <span aria-hidden="true">↗</span></a>
+        <a class="btn" href="#install">Install notes</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-brand">
+      <span class="brand-word">Graph Craft <em>Relate</em></span>
+      <p>A local-first graph workbench for Relate.</p>
+    </div>
+    <div class="footer-cols">
+      <div><span class="mono">PRODUCT</span><a href="#workbench">Workbench</a><a href="#workflow">Workflow</a><a href="#install">Install</a></div>
+      <div><span class="mono">AGENTS</span><a href="#agents">Canvas MCP</a><a href="https://github.com/fab679/graph-craft-relate/blob/main/SKILLS.md" rel="noreferrer">Skills</a><a href="https://github.com/fab679/graph-craft-relate" rel="noreferrer">GitHub</a></div>
+      <div><span class="mono">STATUS</span><span class="status"><i></i> v0.1.0 · private beta</span><span class="muted">Signed updates · local projects</span></div>
+    </div>
+    <p class="footer-legal">© 2026 Graph Craft. All rights reserved. Relate is a separate embedded database. This page is a product overview, not a license grant.</p>
+  </footer>
+
+  <script src="site.js" defer></script>
+</body>
+</html>
