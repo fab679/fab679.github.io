@@ -1,6 +1,11 @@
 {
-  "version": "0.1.0",
-  "notes": "Development channel. Signed release builds replace this manifest with the latest platform entries.",
-  "pub_date": "2026-11-15T00:00:00Z",
-  "platforms": {}
+  "version": "0.1.4",
+  "notes": "Case-insensitive search and term patterns such as (Tom Cruise)-(ACTED_IN)-movies. Search suggestions match regardless of case.",
+  "pub_date": "2026-11-16T09:11:37.729Z",
+  "platforms": {
+    "linux-x86_64": {
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSQ1NobVN5QzdiNmVIUXlpYzhWNGF5SWJYUkhRNFNUTXI0aTZubmMyeGVYMFZ4L0VLTGkxWG1yTFU0Qm5wWC9jMjdoZEo5eXk5Z3Y4cSs4c09IZDRJemdydjVKQzJFcHdFPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0ODIwMDM3CWZpbGU6R3JhcGgtQ3JhZnQtUmVsYXRlXzAuMS40X2FtZDY0LkFwcEltYWdlCXZlcnNpb246MC4xLjQKWWxlQ0ZRbFdUWFFFQ01SN0J1T01KcUVXblVEYkNtbnJvU0hrR0pxcnBpdHFXaE1pOTlSWGlid2xZZmZ5THdqQlUvMU9rWUxyVVFMaW9QQVBwdHhKRFE9PQo=",
+      "url": "https://github.com/fab679/fab679.github.io/releases/download/relate-v0.1.4/Graph-Craft-Relate_0.1.4_amd64.AppImage"
+    }
+  }
 }
