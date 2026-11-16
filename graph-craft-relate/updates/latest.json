@@ -1,11 +1,11 @@
 {
-  "version": "0.1.4",
-  "notes": "Case-insensitive search and term patterns such as (Tom Cruise)-(ACTED_IN)-movies. Search suggestions match regardless of case.",
-  "pub_date": "2026-11-16T09:11:37.729Z",
+  "version": "0.1.5",
+  "notes": "Keep only selected (clear the rest) in the node/background menu, Focus panel, and group rows. keep_only({ids?}) is available through the canvas MCP. The Omarchy mark now follows the theme accent. Search remains case-insensitive with term patterns such as (Tom Cruise)-(ACTED_IN)-movies.",
+  "pub_date": "2026-11-16T09:37:36.915Z",
   "platforms": {
     "linux-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSQ1NobVN5QzdiNmVIUXlpYzhWNGF5SWJYUkhRNFNUTXI0aTZubmMyeGVYMFZ4L0VLTGkxWG1yTFU0Qm5wWC9jMjdoZEo5eXk5Z3Y4cSs4c09IZDRJemdydjVKQzJFcHdFPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0ODIwMDM3CWZpbGU6R3JhcGgtQ3JhZnQtUmVsYXRlXzAuMS40X2FtZDY0LkFwcEltYWdlCXZlcnNpb246MC4xLjQKWWxlQ0ZRbFdUWFFFQ01SN0J1T01KcUVXblVEYkNtbnJvU0hrR0pxcnBpdHFXaE1pOTlSWGlid2xZZmZ5THdqQlUvMU9rWUxyVVFMaW9QQVBwdHhKRFE9PQo=",
-      "url": "https://github.com/fab679/fab679.github.io/releases/download/relate-v0.1.4/Graph-Craft-Relate_0.1.4_amd64.AppImage"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSQ1NobVN5QzdiNlg4eHJNRDN1VTFkZjdpVlZBYk5LdFFtN2grc3EyTHJGOEMxM3lINTZRUVQzSi9naGR4NXNDYWZhSDQ3R0FjZjVEQU5ENXRORHVuUllja1ZpbEFLR2dFPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0ODIxNzg3CWZpbGU6R3JhcGgtQ3JhZnQtUmVsYXRlXzAuMS41X2FtZDY0LkFwcEltYWdlCXZlcnNpb246MC4xLjUKTHFWVitmSkZ1cFJUOWZyTUlIL2Z2UUF5bGRYV2hpaTk0NnVYb1F1L1FTZzdISEtuZkN5aVREbURQK2s4ZzdhZ0xUaHNURS9UcldxTzFESlFuSHZ0QXc9PQo=",
+      "url": "https://github.com/fab679/fab679.github.io/releases/download/relate-v0.1.5/Graph-Craft-Relate_0.1.5_amd64.AppImage"
     }
   }
 }
