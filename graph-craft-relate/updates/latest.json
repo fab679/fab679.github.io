@@ -1,11 +1,11 @@
 {
-  "version": "0.1.6",
-  "notes": "Fix the Save perspective button (the click event was being passed as the scene name). Omarchy Super/Win keybindings pass through; scene file export gives feedback and uses an absolute default path.",
-  "pub_date": "2026-11-16T10:20:40.143Z",
+  "version": "0.1.7",
+  "notes": "Scene import shows .graphcraftrelate files, turns embedded snapshot data into drafts, and merge dedupes against nodes already on the canvas. Bulk permanent delete for selected nodes/relationships. Relationship naming appears at the two nodes. Save perspective, Omarchy key pass-through, and native scene-file save fixes included.",
+  "pub_date": "2026-11-16T12:47:42.628Z",
   "platforms": {
     "linux-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSQ1NobVN5QzdiNlJNNzJETjVQY3VVZmhRODI3WWdQdE5sTGgrQWVmS3hHNjllTWpTa1BuYkJkNG0xajJabG1YNVhuQllUZ3E1MDZWUmNJeGlTNXJqWHhEd2RzdTJGa3dzPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0ODI0MjMzCWZpbGU6R3JhcGgtQ3JhZnQtUmVsYXRlXzAuMS42X2FtZDY0LkFwcEltYWdlCXZlcnNpb246MC4xLjYKVlREbmwva1ZHTlpMV3hKbThMWmpNN1FQcUJoQWdSdWZoNDVCS2VrRHRiVHEwcnppTkJKcDRwajE5THpxS1djTU1xVzB2Q2MxWUJ3ODc2YTE2aVRGQ3c9PQo=",
-      "url": "https://github.com/fab679/fab679.github.io/releases/download/relate-v0.1.6/Graph-Craft-Relate_0.1.6_amd64.AppImage"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSQ1NobVN5QzdiNlk2eWhsOVZuVWoxSHp2QlVvMTllTmFwWGZnTEthbXJvSTFwaHhLMzNURENRc0NYQU9iaHZ0dVhPczY5aFBoK3U2T2RUbGF0cGlNVi9HQmhNZm03U0FvPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0ODMzMTE4CWZpbGU6R3JhcGgtQ3JhZnQtUmVsYXRlXzAuMS43X2FtZDY0LkFwcEltYWdlCXZlcnNpb246MC4xLjcKUU43QzdCRUdxZ3B0bHpDU3g5WmF1b3dvWUYwNkZPTDhOb0VUaGcydmxrYU9RN2ZxWTA5bnhBVnMzdDZRR0dEOW5JcUpUNkloYTBwSHRicGl0UW94RHc9PQo=",
+      "url": "https://github.com/fab679/fab679.github.io/releases/download/relate-v0.1.7/Graph-Craft-Relate_0.1.7_amd64.AppImage"
     }
   }
 }
