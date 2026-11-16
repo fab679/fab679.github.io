@@ -1,11 +1,11 @@
 {
-  "version": "0.1.7",
-  "notes": "Scene import shows .graphcraftrelate files, turns embedded snapshot data into drafts, and merge dedupes against nodes already on the canvas. Bulk permanent delete for selected nodes/relationships. Relationship naming appears at the two nodes. Save perspective, Omarchy key pass-through, and native scene-file save fixes included.",
-  "pub_date": "2026-11-16T12:47:42.628Z",
+  "version": "0.1.8",
+  "notes": "Default project folder setting: new projects and MCP create_project use the configured folder (default ~/Documents/GraphCraftRelate) without a native picker. Includes draft scene import with merge dedupe, bulk permanent delete, near-node relationship prompt, and the Save perspective fix.",
+  "pub_date": "2026-11-16T20:30:43.939Z",
   "platforms": {
     "linux-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSQ1NobVN5QzdiNlk2eWhsOVZuVWoxSHp2QlVvMTllTmFwWGZnTEthbXJvSTFwaHhLMzNURENRc0NYQU9iaHZ0dVhPczY5aFBoK3U2T2RUbGF0cGlNVi9HQmhNZm03U0FvPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0ODMzMTE4CWZpbGU6R3JhcGgtQ3JhZnQtUmVsYXRlXzAuMS43X2FtZDY0LkFwcEltYWdlCXZlcnNpb246MC4xLjcKUU43QzdCRUdxZ3B0bHpDU3g5WmF1b3dvWUYwNkZPTDhOb0VUaGcydmxrYU9RN2ZxWTA5bnhBVnMzdDZRR0dEOW5JcUpUNkloYTBwSHRicGl0UW94RHc9PQo=",
-      "url": "https://github.com/fab679/fab679.github.io/releases/download/relate-v0.1.7/Graph-Craft-Relate_0.1.7_amd64.AppImage"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSQ1NobVN5QzdiNlNVbHduZGxXMHEvb2VGY3lMNEZ1T3QvNnhIaWRTZEZkNUtEdlBBVGg1bVFWaTlvZ3V2VFE2WkIvaEEyRlBVV1pTaDZ5djcxaExnTFd3ZTBnb0xMVVFFPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0ODYwNjczCWZpbGU6R3JhcGgtQ3JhZnQtUmVsYXRlXzAuMS44X2FtZDY0LkFwcEltYWdlCXZlcnNpb246MC4xLjgKVGJGTXU0OUkwUzZscmxLVk1zRGdyTDFRQjUwaWZqUHFQL3hnZ1BmQzFjSXI1OTNTVVdqRFFlY2s5S2orc1BaQVBSQWFaZytMdlYvUFUxbjdIZ0dxQmc9PQo=",
+      "url": "https://github.com/fab679/fab679.github.io/releases/download/relate-v0.1.8/Graph-Craft-Relate_0.1.8_amd64.AppImage"
     }
   }
 }
