@@ -1,11 +1,11 @@
 {
-  "version": "0.1.8",
-  "notes": "Default project folder setting: new projects and MCP create_project use the configured folder (default ~/Documents/GraphCraftRelate) without a native picker. Includes draft scene import with merge dedupe, bulk permanent delete, near-node relationship prompt, and the Save perspective fix.",
-  "pub_date": "2026-11-16T20:30:43.939Z",
+  "version": "0.1.9",
+  "notes": "Hover tooltips stay inside the canvas (width capped, long values ellipsized, clamped to the viewport). Includes default project folder, draft scene import with merge dedupe, bulk permanent delete, near-node relationship prompt, and the Save perspective fix.",
+  "pub_date": "2026-11-18T15:15:42.152Z",
   "platforms": {
     "linux-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSQ1NobVN5QzdiNlNVbHduZGxXMHEvb2VGY3lMNEZ1T3QvNnhIaWRTZEZkNUtEdlBBVGg1bVFWaTlvZ3V2VFE2WkIvaEEyRlBVV1pTaDZ5djcxaExnTFd3ZTBnb0xMVVFFPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0ODYwNjczCWZpbGU6R3JhcGgtQ3JhZnQtUmVsYXRlXzAuMS44X2FtZDY0LkFwcEltYWdlCXZlcnNpb246MC4xLjgKVGJGTXU0OUkwUzZscmxLVk1zRGdyTDFRQjUwaWZqUHFQL3hnZ1BmQzFjSXI1OTNTVVdqRFFlY2s5S2orc1BaQVBSQWFaZytMdlYvUFUxbjdIZ0dxQmc9PQo=",
-      "url": "https://github.com/fab679/fab679.github.io/releases/download/relate-v0.1.8/Graph-Craft-Relate_0.1.8_amd64.AppImage"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSQ1NobVN5QzdiNlJsaTZsVjI1U3NFSWt5UGJvYnFiYXhSUWZ0SGoxcm8wNUtUaCtOTU10WHdPcGdZSDBnemxYQ25zOHhmRnNzdTBvbGpiRURFa2lsaFBvamRPcXV0SEE4PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1MDE0NzUxCWZpbGU6R3JhcGgtQ3JhZnQtUmVsYXRlXzAuMS45X2FtZDY0LkFwcEltYWdlCXZlcnNpb246MC4xLjkKcXo2K3Zyb2ZRWlNpalV0ekgxUGVjYXo2TkdKK0QvVFN0dnR5eFpjMS9MTGp4VUdSVkd4bzdVSGgxNndGNVRhWkNlSDhaVjBGelJ2dzZvU0pxMUNIQ0E9PQo=",
+      "url": "https://github.com/fab679/fab679.github.io/releases/download/relate-v0.1.9/Graph-Craft-Relate_0.1.9_amd64.AppImage"
     }
   }
 }
