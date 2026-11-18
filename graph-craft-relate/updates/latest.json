@@ -1,11 +1,15 @@
 {
   "version": "0.1.9",
-  "notes": "Hover tooltips stay inside the canvas (width capped, long values ellipsized, clamped to the viewport). Includes default project folder, draft scene import with merge dedupe, bulk permanent delete, near-node relationship prompt, and the Save perspective fix.",
-  "pub_date": "2026-11-18T15:15:42.152Z",
+  "notes": "Hover tooltips stay inside the canvas; default project folder; draft scene import with merge dedupe; bulk permanent delete; near-node relationship prompt; Save perspective fix.",
+  "pub_date": "2026-11-18T16:02:56.146Z",
   "platforms": {
     "linux-x86_64": {
       "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSQ1NobVN5QzdiNlJsaTZsVjI1U3NFSWt5UGJvYnFiYXhSUWZ0SGoxcm8wNUtUaCtOTU10WHdPcGdZSDBnemxYQ25zOHhmRnNzdTBvbGpiRURFa2lsaFBvamRPcXV0SEE4PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1MDE0NzUxCWZpbGU6R3JhcGgtQ3JhZnQtUmVsYXRlXzAuMS45X2FtZDY0LkFwcEltYWdlCXZlcnNpb246MC4xLjkKcXo2K3Zyb2ZRWlNpalV0ekgxUGVjYXo2TkdKK0QvVFN0dnR5eFpjMS9MTGp4VUdSVkd4bzdVSGgxNndGNVRhWkNlSDhaVjBGelJ2dzZvU0pxMUNIQ0E9PQo=",
       "url": "https://github.com/fab679/fab679.github.io/releases/download/relate-v0.1.9/Graph-Craft-Relate_0.1.9_amd64.AppImage"
+    },
+    "windows-x86_64": {
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSQ1NobVN5QzdiNlE1TWEzRVpWODFmN1BRaDdoaHBDa3RrY3Fid2dwUE40bFVPL3plQk9GQUs5NDAxei9ydk1jcXpDTmVnamxWVnYrUDZhdXJkOG54cDlGSGYwbDd3RHc0PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1MDE3NzAzCWZpbGU6R3JhcGgtQ3JhZnQtUmVsYXRlXzAuMS45X3g2NC1zZXR1cC5leGUJdmVyc2lvbjowLjEuOQpCbFYyTTNEZzhhSmVwekRLdnFRS1lOSTZFbkhCTVpnOVBJY3dwQjNpdDRHOUxVMkpRZk11dXdmeHlRS0QwK3JXYjdiQ25PeTFqN2w3blg5SzdRYjZCUT09Cg==",
+      "url": "https://github.com/fab679/fab679.github.io/releases/download/relate-v0.1.9/Graph-Craft-Relate_0.1.9_x64-setup.exe"
     }
   }
 }
