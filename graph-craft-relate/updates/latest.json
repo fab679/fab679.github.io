@@ -1,15 +1,15 @@
 {
-  "version": "0.1.9",
-  "notes": "Hover tooltips stay inside the canvas; default project folder; draft scene import with merge dedupe; bulk permanent delete; near-node relationship prompt; Save perspective fix.",
-  "pub_date": "2026-11-18T16:02:56.146Z",
+  "version": "0.1.10",
+  "notes": "Bulk import for agents (bulk_create), 10,000-node scenes with All/Subset limits, compact hover tooltips, live project counts, and clearer dirty_board/bridge errors. Expanded data-modeling and bulk-import agent skills.",
+  "pub_date": "2026-11-24T17:30:49.960Z",
   "platforms": {
     "linux-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSQ1NobVN5QzdiNlJsaTZsVjI1U3NFSWt5UGJvYnFiYXhSUWZ0SGoxcm8wNUtUaCtOTU10WHdPcGdZSDBnemxYQ25zOHhmRnNzdTBvbGpiRURFa2lsaFBvamRPcXV0SEE4PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1MDE0NzUxCWZpbGU6R3JhcGgtQ3JhZnQtUmVsYXRlXzAuMS45X2FtZDY0LkFwcEltYWdlCXZlcnNpb246MC4xLjkKcXo2K3Zyb2ZRWlNpalV0ekgxUGVjYXo2TkdKK0QvVFN0dnR5eFpjMS9MTGp4VUdSVkd4bzdVSGgxNndGNVRhWkNlSDhaVjBGelJ2dzZvU0pxMUNIQ0E9PQo=",
-      "url": "https://github.com/fab679/fab679.github.io/releases/download/relate-v0.1.9/Graph-Craft-Relate_0.1.9_amd64.AppImage"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSQ1NobVN5QzdiNldEanZpb3pQY200Z3Y4enppK1RJeHk4MVhPbldvNzhKNjhRbG9GZ2xkNWlYWU92MFhlV1RVK2VubHVpcitoNTd6eVdRK3pJaCtNcHd0SXNUR2RyN2dBPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1NTM5OTk4CWZpbGU6R3JhcGgtQ3JhZnQtUmVsYXRlXzAuMS4xMF9hbWQ2NC5BcHBJbWFnZQl2ZXJzaW9uOjAuMS4xMApER3ZRZFh3a0pqZnptc0tJMk1XOUk3Kys4UnRqRkExUkMxZitiVU1SRnNzMWE4RS9ORGtYSGZLN2ozRnB5ZU9jS1Uvd3ZZbEFqSUV3Wjh0SUwwbWtCdz09Cg==",
+      "url": "https://github.com/fab679/fab679.github.io/releases/download/relate-v0.1.10/Graph-Craft-Relate_0.1.10_amd64.AppImage"
     },
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSQ1NobVN5QzdiNlE1TWEzRVpWODFmN1BRaDdoaHBDa3RrY3Fid2dwUE40bFVPL3plQk9GQUs5NDAxei9ydk1jcXpDTmVnamxWVnYrUDZhdXJkOG54cDlGSGYwbDd3RHc0PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1MDE3NzAzCWZpbGU6R3JhcGgtQ3JhZnQtUmVsYXRlXzAuMS45X3g2NC1zZXR1cC5leGUJdmVyc2lvbjowLjEuOQpCbFYyTTNEZzhhSmVwekRLdnFRS1lOSTZFbkhCTVpnOVBJY3dwQjNpdDRHOUxVMkpRZk11dXdmeHlRS0QwK3JXYjdiQ25PeTFqN2w3blg5SzdRYjZCUT09Cg==",
-      "url": "https://github.com/fab679/fab679.github.io/releases/download/relate-v0.1.9/Graph-Craft-Relate_0.1.9_x64-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSQ1NobVN5QzdiNmIzN1kzeDR3SWhMZTVOdjMwVkZ3RjNldkI4NG42R0RIZ0x0RkpXN0NKWndhTllGazJoNlViOUhBd3VYZTdRbzhIdEsxQklZMGk4TXFXTmROTkJmTFFVPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1NTQxNDIzCWZpbGU6R3JhcGgtQ3JhZnQtUmVsYXRlXzAuMS4xMF94NjQtc2V0dXAuZXhlCXZlcnNpb246MC4xLjEwCi9JSzhWU2o1OTZ3U0hLWUtOR1NNSmk2bFhDemFuQk5GOGVYWFJPMytQMXNSMFFnQ0Z6R24yTzVMbEdnblZkUGcyWlBvdmlzSmhyQmtxSldMMld1NkNBPT0K",
+      "url": "https://github.com/fab679/fab679.github.io/releases/download/relate-v0.1.10/Graph-Craft-Relate_0.1.10_x64-setup.exe"
     }
   }
 }
